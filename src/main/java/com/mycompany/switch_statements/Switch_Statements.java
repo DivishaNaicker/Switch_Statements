@@ -11,6 +11,14 @@ package com.mycompany.switch_statements;
 public class Switch_Statements {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+     /*
+        Create a application that demonstrates the differences between Nested
+        If-Else Statements and Switch Statements
+        
+        Prompt the user to Enter  a Number and Based on the Number 
+        Entered, display the day .For example : 2--> Tuesday
+        */
+     
+     //Import
     }
 }
