@@ -4,6 +4,8 @@
 
 package com.mycompany.switch_statements;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lab_services_student
@@ -19,6 +21,30 @@ public class Switch_Statements {
         Entered, display the day .For example : 2--> Tuesday
         */
      
-     //Import
+     //Import Scanner Object
+     Scanner kb = new Scanner(System.in);
+     
+     //Prompt the user to Enter a Value between 1-7
+        System.out.println("Please Enter a Value between 1-7 to display a day>>>");
+        int userInput = kb.nextInt();
+        
+     //Implement nested if-else
+     if (userInput == 1){
+         System.out.println("Monday");
+     }else if (userInput == 2){
+         System.out.println("Tuesday");
+     }else if (userInput == 3){
+        System.out.println("Wednesday, Almost to the End of the week"); 
+     }else if (userInput == 4){
+        System.out.println("Thursday, One more day!"); 
+     }else if (userInput == 5){
+        System.out.println("Friday, Party Time!!!"); 
+     }else if (userInput == 6){
+        System.out.println("Saturday"); 
+     }else if (userInput == 7){
+        System.out.println("Sunday,I wish it was saturday "); 
+     }else if (userInput == 8){
+        System.out.println("Invalid Entry"); 
+     }
     }
 }
